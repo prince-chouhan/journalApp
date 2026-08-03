@@ -1,0 +1,21 @@
+#spring.data.mongodb.uri=mongodb+srv://aashish:Aashiya123%40@securejournalapplicatio.zji5u73.mongodb.net/?appName=secureJournalApplication
+#spring.data.mongodb.database=journaldb
+#spring.data.mongodb.username=user
+##spring.data.mongodb.password=password
+#spring.application.name=Journal App
+#spring.data.mongodb.auto-index-creation=true
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://aashish:Aashiya123%40@securejournalapplicatio.zji5u73.mongodb.net/?appName=secureJournalApplication
+      database: journaldb
+      username: user
+      auto-index-creation: true
+
+  application:
+    name: Journal App
+
+weather.api.key: 3cc03167ca014d4594b90038260805
+elevenlabs.api.key: sk_f87b34d9c1512766469e5faaff7c5c48276e573aef4e156c
+   
